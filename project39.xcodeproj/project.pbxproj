@@ -17,6 +17,7 @@
 		3F661DE72A01865700AFC707 /* project39UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661DE62A01865700AFC707 /* project39UITests.swift */; };
 		3F661DE92A01865700AFC707 /* project39UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661DE82A01865700AFC707 /* project39UITestsLaunchTests.swift */; };
 		3F661DFA2A01944400AFC707 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F661DF92A01944400AFC707 /* PlayData.swift */; };
+		3F661DFC2A0197BE00AFC707 /* plays.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F661DFB2A0197BE00AFC707 /* plays.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F661DE62A01865700AFC707 /* project39UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project39UITests.swift; sourceTree = "<group>"; };
 		3F661DE82A01865700AFC707 /* project39UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project39UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F661DF92A01944400AFC707 /* PlayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		3F661DFB2A0197BE00AFC707 /* plays.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plays.txt; path = ../../../../Downloads/plays.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				3F661DCB2A01865500AFC707 /* Main.storyboard */,
 				3F661DF92A01944400AFC707 /* PlayData.swift */,
 				3F661DCE2A01865700AFC707 /* Assets.xcassets */,
+				3F661DFB2A0197BE00AFC707 /* plays.txt */,
 				3F661DD02A01865700AFC707 /* LaunchScreen.storyboard */,
 				3F661DD32A01865700AFC707 /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F661DFC2A0197BE00AFC707 /* plays.txt in Resources */,
 				3F661DD22A01865700AFC707 /* LaunchScreen.storyboard in Resources */,
 				3F661DCF2A01865700AFC707 /* Assets.xcassets in Resources */,
 				3F661DCD2A01865500AFC707 /* Main.storyboard in Resources */,
