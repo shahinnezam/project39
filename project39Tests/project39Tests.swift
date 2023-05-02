@@ -23,4 +23,10 @@ class project39Tests: XCTestCase {
         let playData = PlayData()
         XCTAssertEqual(playData.allWords.count, 18440, "allWords was not 18440")
     }
+    func testWordCountsAreCorrect(){
+        let playData = PlayData()
+        XCTAssertEqual(playData.wordCounts["own"], 344, "Own does not appear 344 times")
+        XCTAssertEqual(playData.wordCounts["but"], 1809, "Own does not appear 1809 times")
+        XCTAssertEqual(playData.wordCounts["pagan"], 1, "Own does not appear 1 time")
+    }
 }
